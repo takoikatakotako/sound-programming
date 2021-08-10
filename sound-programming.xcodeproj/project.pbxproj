@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		8D79DE4926C234FA000C523D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D79DE4826C234FA000C523D /* main.swift */; };
 		8D79DE5026C23524000C523D /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D79DE4F26C23524000C523D /* Wave.swift */; };
-		8D79DE5226C23538000C523D /* MONO_PCM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D79DE5126C23538000C523D /* MONO_PCM.swift */; };
+		8D79DE5226C23538000C523D /* MonoPulseCodeModulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D79DE5126C23538000C523D /* MonoPulseCodeModulation.swift */; };
 		8D79DE5426C2354F000C523D /* Write.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D79DE5326C2354F000C523D /* Write.swift */; };
+		8D79DE5C26C2D925000C523D /* Ex2_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D79DE5B26C2D925000C523D /* Ex2_1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +30,9 @@
 		8D79DE4526C234FA000C523D /* sound-programming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "sound-programming"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D79DE4826C234FA000C523D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8D79DE4F26C23524000C523D /* Wave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave.swift; sourceTree = "<group>"; };
-		8D79DE5126C23538000C523D /* MONO_PCM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MONO_PCM.swift; sourceTree = "<group>"; };
+		8D79DE5126C23538000C523D /* MonoPulseCodeModulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonoPulseCodeModulation.swift; sourceTree = "<group>"; };
 		8D79DE5326C2354F000C523D /* Write.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Write.swift; sourceTree = "<group>"; };
+		8D79DE5B26C2D925000C523D /* Ex2_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex2_1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +67,9 @@
 			children = (
 				8D79DE4826C234FA000C523D /* main.swift */,
 				8D79DE4F26C23524000C523D /* Wave.swift */,
-				8D79DE5126C23538000C523D /* MONO_PCM.swift */,
+				8D79DE5126C23538000C523D /* MonoPulseCodeModulation.swift */,
 				8D79DE5326C2354F000C523D /* Write.swift */,
+				8D79DE5B26C2D925000C523D /* Ex2_1.swift */,
 			);
 			path = "sound-programming";
 			sourceTree = "<group>";
@@ -129,8 +132,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D79DE5026C23524000C523D /* Wave.swift in Sources */,
+				8D79DE5C26C2D925000C523D /* Ex2_1.swift in Sources */,
 				8D79DE5426C2354F000C523D /* Write.swift in Sources */,
-				8D79DE5226C23538000C523D /* MONO_PCM.swift in Sources */,
+				8D79DE5226C23538000C523D /* MonoPulseCodeModulation.swift in Sources */,
 				8D79DE4926C234FA000C523D /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
