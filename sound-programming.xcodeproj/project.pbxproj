@@ -77,10 +77,10 @@
 				8D79DE4F26C23524000C523D /* Wave.swift */,
 				8D79DE5126C23538000C523D /* MonoPulseCodeModulation.swift */,
 				8D79DE5326C2354F000C523D /* Write.swift */,
-				8D79DE5B26C2D925000C523D /* Ex2_1.swift */,
-				8D79DE5D26C430FE000C523D /* EX1_1.swift */,
 				8D79DE5F26C4311F000C523D /* Read.swift */,
+				8D79DE5D26C430FE000C523D /* EX1_1.swift */,
 				8D79DE6126C43216000C523D /* Ex1_2.swift */,
+				8D79DE5B26C2D925000C523D /* Ex2_1.swift */,
 				8D79DE6326C4AA2D000C523D /* Ex2_2.swift */,
 			);
 			path = "sound-programming";

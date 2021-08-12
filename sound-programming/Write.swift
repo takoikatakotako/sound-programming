@@ -1,7 +1,7 @@
 import Foundation
 
-func mono_wave_write(pcm: MonoPulseCodeModulation, fileName: String) {
-    let fp = fopen(fileName, "wb")
+func mono_wave_write(pcm: MonoPulseCodeModulation, filePath: String) {
+    let fp = fopen(filePath, "wb")
     let riffChunkId: String = "RIFF"
     let riffChunkIdBuffer: [CChar]  = riffChunkId.cString(using: .utf8)!
     var riffChunkSize: Int = 36 + pcm.length * 2

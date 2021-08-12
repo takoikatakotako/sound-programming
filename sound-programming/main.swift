@@ -1,6 +1,7 @@
 import Foundation
 
+let projectPath = "/Users/junpeiono/Desktop/MyProject/sound-programming"
 
 
-ex2_1(fileName: "/Users/junpeiono/Desktop/MyProject/sound-programming/output/ex2_1.wav")
+ex2_1(filePath: projectPath + "/output/ex2_1.wav")
 
