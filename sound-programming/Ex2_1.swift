@@ -1,5 +1,6 @@
 import Foundation
 
+// 
 func ex2_1(filePath: String) {
     var pcm1 = MonoPulseCodeModulation(fs: 8000, bits: 16, length: 8000, s: [])
     let A: Double = 0.25
