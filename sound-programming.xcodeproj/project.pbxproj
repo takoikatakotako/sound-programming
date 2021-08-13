@@ -16,6 +16,7 @@
 		8D79DE6026C4311F000C523D /* Read.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D79DE5F26C4311F000C523D /* Read.swift */; };
 		8D79DE6226C43216000C523D /* Ex1_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D79DE6126C43216000C523D /* Ex1_2.swift */; };
 		8D79DE6426C4AA2D000C523D /* Ex2_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D79DE6326C4AA2D000C523D /* Ex2_2.swift */; };
+		8D79DE6626C65759000C523D /* Ex2_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D79DE6526C65759000C523D /* Ex2_3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,7 @@
 		8D79DE5F26C4311F000C523D /* Read.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Read.swift; sourceTree = "<group>"; };
 		8D79DE6126C43216000C523D /* Ex1_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex1_2.swift; sourceTree = "<group>"; };
 		8D79DE6326C4AA2D000C523D /* Ex2_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex2_2.swift; sourceTree = "<group>"; };
+		8D79DE6526C65759000C523D /* Ex2_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex2_3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				8D79DE6126C43216000C523D /* Ex1_2.swift */,
 				8D79DE5B26C2D925000C523D /* Ex2_1.swift */,
 				8D79DE6326C4AA2D000C523D /* Ex2_2.swift */,
+				8D79DE6526C65759000C523D /* Ex2_3.swift */,
 			);
 			path = "sound-programming";
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				8D79DE6226C43216000C523D /* Ex1_2.swift in Sources */,
 				8D79DE5226C23538000C523D /* MonoPulseCodeModulation.swift in Sources */,
 				8D79DE4926C234FA000C523D /* main.swift in Sources */,
+				8D79DE6626C65759000C523D /* Ex2_3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
