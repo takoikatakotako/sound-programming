@@ -21,18 +21,23 @@ func ex2_4(filePath: String) {
     // DFT
     for k in 0..<N {
         for n in 0..<N {
-
             wReal = cos(2.0 * Double.pi * Double(k) * Double(n) / Double(N) )
             wImag = -sin(2.0 * Double.pi * Double(k) * Double(n) / Double(N) )
-
-            
-            XReal[k] += wReal * XReal[n] - wImag * xImag[n]
-            XImag[k] += wReal * XImag[n] + wImag * xReal[n]
-
+            XReal[k] += wReal * xReal[n] - wImag * xImag[n]
+            XImag[k] += wReal * xImag[n] + wImag * xReal[n]
         }
     }
     
     for k in 0..<N {
+//        // 見やすくするため
+//        if abs(XReal[k]) < 0.000000000001 {
+//            XReal[k] = 0
+//        }
+//        
+//        if abs(XImag[k]) < 0.000000000001 {
+//            XImag[k] = 0
+//        }
+//
         print("\(k) \(XReal[k]) + \(XImag[k])")
     }
     
