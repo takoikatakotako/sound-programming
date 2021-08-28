@@ -13,6 +13,8 @@ func ex2_4(filePath: String) {
     var wReal: Double
     var wImag: Double
     
+    
+    
     for n in 0..<N {
         xReal[n] = pcm0.s[n]    // x(n)の実数部
         xImag[n] = 0.0  // x(n)の虚数部
@@ -29,17 +31,6 @@ func ex2_4(filePath: String) {
     }
     
     for k in 0..<N {
-//        // 見やすくするため
-//        if abs(XReal[k]) < 0.000000000001 {
-//            XReal[k] = 0
-//        }
-//        
-//        if abs(XImag[k]) < 0.000000000001 {
-//            XImag[k] = 0
-//        }
-//
-        print("\(k) \(XReal[k]) + \(XImag[k])")
+       print("\(k) \(XReal[k]) + \(XImag[k])")
     }
-    
-    
 }
