@@ -18,6 +18,8 @@
 		8D79DE6426C4AA2D000C523D /* Ex2_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D79DE6326C4AA2D000C523D /* Ex2_2.swift */; };
 		8D79DE6626C65759000C523D /* Ex2_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D79DE6526C65759000C523D /* Ex2_3.swift */; };
 		8DDD14E826D55218007A6D1F /* Ex2_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDD14E726D55218007A6D1F /* Ex2_4.swift */; };
+		8DDF317F26EE5541006E4755 /* Ex2_6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDF317E26EE5541006E4755 /* Ex2_6.swift */; };
+		8DDF318126EE5763006E4755 /* WindowFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDF318026EE5763006E4755 /* WindowFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +47,8 @@
 		8D79DE6326C4AA2D000C523D /* Ex2_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex2_2.swift; sourceTree = "<group>"; };
 		8D79DE6526C65759000C523D /* Ex2_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex2_3.swift; sourceTree = "<group>"; };
 		8DDD14E726D55218007A6D1F /* Ex2_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex2_4.swift; sourceTree = "<group>"; };
+		8DDF317E26EE5541006E4755 /* Ex2_6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex2_6.swift; sourceTree = "<group>"; };
+		8DDF318026EE5763006E4755 /* WindowFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowFunction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 				8D79DE6326C4AA2D000C523D /* Ex2_2.swift */,
 				8D79DE6526C65759000C523D /* Ex2_3.swift */,
 				8DDD14E726D55218007A6D1F /* Ex2_4.swift */,
+				8DDF317E26EE5541006E4755 /* Ex2_6.swift */,
+				8DDF318026EE5763006E4755 /* WindowFunction.swift */,
 			);
 			path = "sound-programming";
 			sourceTree = "<group>";
@@ -151,11 +157,13 @@
 			files = (
 				8D79DE5E26C430FE000C523D /* EX1_1.swift in Sources */,
 				8D79DE6026C4311F000C523D /* Read.swift in Sources */,
+				8DDF317F26EE5541006E4755 /* Ex2_6.swift in Sources */,
 				8D79DE5026C23524000C523D /* Wave.swift in Sources */,
 				8D79DE5C26C2D925000C523D /* Ex2_1.swift in Sources */,
 				8D79DE5426C2354F000C523D /* Write.swift in Sources */,
 				8DDD14E826D55218007A6D1F /* Ex2_4.swift in Sources */,
 				8D79DE6426C4AA2D000C523D /* Ex2_2.swift in Sources */,
+				8DDF318126EE5763006E4755 /* WindowFunction.swift in Sources */,
 				8D79DE6226C43216000C523D /* Ex1_2.swift in Sources */,
 				8D79DE5226C23538000C523D /* MonoPulseCodeModulation.swift in Sources */,
 				8D79DE4926C234FA000C523D /* main.swift in Sources */,
